@@ -1,5 +1,5 @@
 //
-//  GuestListViewController.swift
+//  InvitePageViewController.swift
 //  scuttle
 //
 //  Created by Andrew Marmorstein on 2/13/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GuestListViewController: UIViewController {
+class InvitePageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +21,6 @@ class GuestListViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func backToGuestListSegue(segue:UIStoryboardSegue) {
-    }
 
     /*
     // MARK: - Navigation
