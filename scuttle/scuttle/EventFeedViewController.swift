@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventFeedViewController: UITableViewController {
+class EventFeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var eventArray = [String]()
 
@@ -23,19 +23,22 @@ class EventFeedViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func backToEventFeedSegue(segue:UIStoryboardSegue) {
+    }
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return eventArray.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(kEventCellID, forIndexPath: indexPath) as! EventFeedCell
 
         // Configure the cell...

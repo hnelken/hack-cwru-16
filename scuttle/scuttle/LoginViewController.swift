@@ -55,6 +55,9 @@ class LoginViewController: UIViewController {
             self.presentViewController(alert, animated: true, completion: nil)
         }
     }
+    
+    @IBAction func logOutSegue(segue:UIStoryboardSegue) {
+    }
 
     /*
     // MARK: - Navigation
