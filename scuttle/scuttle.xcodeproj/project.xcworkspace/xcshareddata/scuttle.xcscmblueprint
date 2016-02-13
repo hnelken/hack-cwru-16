@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3115F7E54B702FAAA2BD64BF77ECBBE7F4D99A66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3115F7E54B702FAAA2BD64BF77ECBBE7F4D99A66" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "00835BBF-7D29-424F-BCBA-E00F1806A09E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3115F7E54B702FAAA2BD64BF77ECBBE7F4D99A66" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "scuttle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "scuttle\/scuttle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hnelken\/hack-cwru-16.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3115F7E54B702FAAA2BD64BF77ECBBE7F4D99A66"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hnelken\/hack-cwru-16.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3115F7E54B702FAAA2BD64BF77ECBBE7F4D99A66"
+    }
+  ]
+}
