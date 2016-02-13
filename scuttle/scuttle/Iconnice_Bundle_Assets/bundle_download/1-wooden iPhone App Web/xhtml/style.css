@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ width:100%; text-align:center; background:#000000; margin:0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height:20px;}
+html{ width:100%; text-align:center; background:#000000; margin:0;}
+
+
+#warp{ width:960px; background:#391f0a; margin:0 auto;}
+
+.banner{ width:960px; height:661px; text-align:left;}
+.banner .banner1{ width:455px; height:598px; float:left; border:0; margin:0; padding:0;}
+.banner .banner2{ width:505px; height:269px; float:right; border:0; margin:0; padding:0;}
+.banner .banner3{ width:440px; height:329px; float:right; background:url(images/banner3.jpg) no-repeat; margin:0; padding:0 60px 0 5px; font-weight:bold;}
+.banner .banner3 p{ margin:0; padding:0;}
+.banner .banner4{ width:960px; height:63px;border:0; margin:0; padding:0;}
+
+.contect{ margin:0; padding:30px 20px 50px 40px; text-align:left;color:#a65d39;}
+.contect .contect1{ float:left; width:355px;}
+.contect .contect1 ul{margin:10px 0 0 0; padding:0; list-style:none;}
+.contect .contect1 ul li{ margin-bottom:20px; background:url(images/list-bg.jpg) no-repeat 0 7px; padding-left:14px; }
+
+.contect .contect2{ float:left; width:300px; margin-left:30px;}
+.contect .contect2 p{ margin:0; padding:0;}
+.contect .contect2 p img{ float:left; padding-bottom:20px; padding-right:23px;}
+
+.contect .contect3{ float:left; width:215px;}
+.contect .contect3 p{ margin-top:10px; margin-bottom:10px; padding:0;}
+.contect .contect3 .contect3-bg1{ background:url(images/contect3-bg1.jpg) no-repeat; width:16px; height:29px; float:left}
+.contect .contect3 .contect3-bg1_1{ background:url(images/contect3-bg1_1.jpg) no-repeat; width:170px; height:29px; float:right; margin-right:29px;}
+.contect .contect3 .contect3-bg1_1 .txt{ background:#271306;border:0; padding-top:7px; text-align:left;font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#7f3f1f;}
+
+.contect .contect3 .contect3-bg2{ background:url(images/contect3-bg2.jpg) no-repeat; width:186px; height:10px; margin-top:10px}
+.contect .contect3 .contect3-bg2_1{ background:url(images/contect3-bg2_1.jpg) no-repeat; width:186px; height:139px;}
+.contect .contect3 .contect3-bg2_1 .txt{ background:#271306;border:0; padding:0 0 5px 5px; text-align:left;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;color:#7f3f1f; overflow-y:hidden; height: 128px;}
+.contect .contect3 .submit{ float:right; margin-top:10px; margin-right:29px;}

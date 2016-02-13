@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ width:100%; text-align:center; background:#000000; margin:0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height:20px;}
+html{ width:100%; text-align:center; background:#000000; margin:0;}
+
+
+#warp{ width:960px; background:#fff4de; margin:0 auto;}
+.New{ width:133px; height:170px; position:absolute; z-index:100; text-align:left; margin:0; background: url(images/new.jpg)}
+#Head{ width:960px; height:600px;}
+.HeadLeft{ width:274px; height:600px; margin-left:70px; float:left; text-align:left}
+.HeadLeftTop{ width:220px;text-align:center;}
+.HeadLeftTop h1{ font-family: Verdana, Geneva, sans-serif; font-size:20px; color:#9c4d23; margin:0; padding:0; line-height:18px;}
+.HeadLeftTop h2{ font-family: Georgia,Verdana, Arial,Helvetica, sans-serif; font-size:50px;color:#000; font-weight:lighter; margin-top:20px; padding:0;}
+.HeadLeftCenter{ width:274px; font-family:Verdana, Arial,Helvetica, sans-serif; font-size:11px; color:#000; text-align:left; line-height:20px;}
+.HeadLeftBottom{ widows:230px; height:85px; margin-top:10px;}
+.HeadCenter{ width:296px;float:left; height:600px;}
+.HeadLeftCenter p{ margin:10px 0 20px 0; padding:0;}
+.HeadRight{ width:256px; height:600px; margin-right:44px; float:left;}
+.HeadRightTop{ width:188px; height:136px; margin:83px 0 24px 0; background:url(images/2_04.jpg) no-repeat; padding:22px 13px 18px 55px; text-align:left;}
+.HeadRightTop p{ font-family:Georgia,Verdana, Arial,Helvetica, sans-serif; font-size:16px; color:#fff4de; margin:0; padding:0;}
+.HeadRightCenter{ width:211px; margin:0; margin-left:45px; text-align:left;}
+.HeadRightCenter h3{margin:0; font-family: Myriad Pro,Verdana, Arial,Helvetica, sans-serif; font-size:24px; color:#d9914a; font-weight:lighter;}
+.ProOverview{width:211px; margin:0 0 0 45px; float:left;}
+.HeadRightBottom img { width:91px; height:91px; margin-right:14px; margin-top:15px; float:left;}
+
+#Contect{ width:815px; margin:0 73px 30px 72px; height:240px; text-align:left;}
+h4{margin:0; font-family: Myriad Pro,Verdana, Arial,Helvetica, sans-serif; font-size:32px; color:#d9914a;}
+.ContectLeft{ width:380px; margin-right:60px; float:left;}
+.ContectLeft ul{margin:10px 0 0 0; padding:0; list-style:none;  font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#a65d39; }
+.ContectLeft ul li{ margin-bottom:20px; background:url(images/dian.jpg) no-repeat 0 7px; padding-left:14px;}
+.ContectRight{ width:373px; margin:0; float:right;}
+.ContectRight p { color:#d9914a; margin:15px 0 5px 0;}
+.ContectRight .One .One_1{ background: url(images/1.jpg) no-repeat; width:13px; height:28px; float:left}
+.ContectRight .One .One_2{ background: url(images/11.jpg) no-repeat; width:360px; height:28px; float:right;}
+.ContectRight .One .One_2 .txt{ background:#f4d6b1; border:0; padding-top:7px; text-align:left;font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#7f3f1f;}
+.ContectRight .Two .Two_1{ background:url(images/2.jpg) no-repeat; width:373px; height:11px; margin-top:10px}
+.ContectRight .Two .Two_2{ background:url(images/22.jpg) no-repeat; width:373px; height:71px;}
+.ContectRight .Two .Two_2 .txt{ background:#f4d6b1;border:0; padding:0 0 5px 5px; text-align:left;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;color:#7f3f1f; overflow-y:hidden; height: 57px;}
+.ContectRight .submit{ float:right; margin-top:10px;}
+
+#Foot{ width:815px; height:70px; padding:0 73px 0 72px; background: url(images/foot-bg.jpg) repeat-x; text-align:left; font-family:Verdana, Geneva, sans-serif;font-size:12px; color:#65341c; line-height:70px;}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{ width:100%; height:auto; margin:0; padding:0; background:url(images/bg.jpg); font-family:Arial; }
+
+#warp{ width:883px; height:auto; padding-top:32px; margin:0 auto;}
+.head{ width:859px; height:77px; padding: 0 12px 27px 12px;}
+.logo{ width:76px; height:77px; float:left;}
+.tit{ width:300px; height:77px; padding-left:20px; float:left;}
+h1 {font-size:48px; color:#6b7d77; margin:0; padding:0; font-weight:lighter;}
+h2 {font-size:18px; color:#eceeee; margin:0; padding:0; font-weight:lighter;}
+.bird{ width:335px; height:40px; padding:14px 0 0 45px; float:right; background:url(images/bird.jpg) 0 20px no-repeat; font-size:11px; color:#64746e; line-height:12px;}
+.banner{ width:883px; height:468px;}
+.banner-left{ width:458px;height:310px; float:left; background:url(images/tit.jpg) no-repeat; padding-top:158px;}
+.banner-txt{ width:319px; height:244px; background:url(images/txt-bg.jpg) no-repeat; padding:0 64px 0 75px; margin:0;}
+.banner-txt p{ font-size:12px; line-height:18px; color:#e5e5e5; margin:0; padding:8px 0;}
+.btn{ height:66px; width:458px;}
+.app{ float:left; height:66px; width:244px; margin:0; padding:0;}
+.ProOverview{ float:left; width:209px;height:52px; background:url(images/pic-bg.jpg) no-repeat; padding:14px 0 0 5px; margin:0;}
+.ProImg img{ margin-right:14px; padding:0;}
+
+.banner-right{ width:425px;height:468px; float:right; background:url(images/iphone.jpg) no-repeat;}
+
+.letter{ width:883px; height:28px; background:url(images/space.jpg) no-repeat;}
+.letter1{ float:right; width:75px; height:28px;}
+.bottom{ width:883px; height:55px; background:url(images/bottom.jpg) no-repeat;}
+
+.foot{ height:40px; width:883px; padding-top:20px; text-align:center; font-size:11px; color:#64746e;}

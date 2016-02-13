@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; width:100%; height:auto; background:url(images/bg.jpg);}
+
+#warp{ width:960px; height:auto; margin:0 auto; padding:33px 0 10px 0; font-family:Arial,Verdana;}
+.head{ width:525px; height:94px;  margin:0 217px 26px 218px; padding:0;}
+.banner{ width:759px; height:380px;margin:0 100px 52px 101px; padding:0;}
+.banner img{ float:left; margin:0; padding:0;}
+.picture{ width:960px; height:167px;}
+.picture1{ width:113px; height:167px; float:left; background:url(images/wood-left.jpg);}
+.ProOverview{ width:758px; height:167px; float:left; background:url(images/wood-bottom.jpg) bottom no-repeat;}
+.ProOverview img{ float:left; margin:0; padding:0;}
+.picture3{ width:89px; height:167px; float:left; background:url(images/wood-right.jpg);}
+.content{ width:750px; margin:0; padding:35px 100px 0 110px;}
+h1{font-size:24px; color:#f3f3f3; font-weight:lighter; margin:0; padding:0;}
+.content p{ font-size:13px; color:#c8d0da; line-height:18px; padding:0 ; margin:20px 0 0 0;}
+.content span{ display:block; padding:0; margin:35px 0; text-align:center;}
+.comment{ width:750px; margin:0; padding:35px 100px 50px 110px;}
+.comment1{ float:left; border-right: 1px solid #abb3bc; width:380px;font-size:18px; font-family:Georgia, "Times New Roman", Times, serif; color:#c8d0da; line-height:22px; font-style:italic; }
+.comment1 p{margin:0; padding:0; font-style:italic;}
+.comment1 span{font-size:18px; font-family: margin:0; padding:0; text-align:right; padding:10px 70px 0 0; margin:0; display:block;}
+.comment2{ float:right;  width:320px; font-size:18px; font-family:Georgia, "Times New Roman", Times, serif; color:#c8d0da; line-height:22px; font-style:italic;}
+.comment2 p{ margin:0; padding:0;}
+.comment2 span{text-align:right; padding:10px 10px 0 0; margin:0; display:block;}
+
+.contact{ width:710px; padding:7px 20px; margin:0 100px 30px 110px; height:41px; background:#46515e url(images/icon-letter.jpg) no-repeat  20px 7px;}
+.contact p{ margin:0; padding:0 0 0 50px; font-size:14px; color:#939ca6; line-height:18px;}
+.foot{ width:750px; margin:0; padding:0 100px 0 110px; text-align:center;font-size:12px; color:#c8d0da;}

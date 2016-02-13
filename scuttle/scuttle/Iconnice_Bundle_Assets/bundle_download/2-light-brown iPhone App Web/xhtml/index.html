@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="script/jquery.fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.easing.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.fancybox.js"></script>
+</head>
+
+<body>
+<div id="warp">
+     <div class="New"></div>
+     <div id="Head">
+       <div class="HeadLeft">
+               <div class="HeadLeftTop">
+                    <a href="#"><img src="images/light.jpg" width="100" height="170" border="0" /></a>
+                    <h1>The Description</h1>
+                    <h2>THE APP</h2>
+               </div>
+               <div class="HeadLeftCenter">
+                    <p>Lorem ipsum dolor sit amet, consectetur<br />adipisicing elit, sed do eiusmod tempor<br />incididunt ut labore et dolore magna aliqua. <br />
+                       Ut enim ad minim veniam.<br />
+                       Curabitur commodo enim et lorem facilisis at adipiscing dolor blandit. Duis vel posuere ligula. </p>
+               </div>
+               <div class="HeadLeftBottom"><a href="#"><img src="images/btn-green.jpg" width="230" height="85" border="0" /></a></div>
+       </div>
+           <div class="HeadCenter"><img src="images/iphone.jpg" width="296" height="600" /></div>
+           <div class="HeadRight">
+                <div class="HeadRightTop">
+                      <p><em>" The app features an intuitive interface that <br />
+                              is extremely easy on the eyes. "</em></p>
+                      <p style=" text-align:right; font-size:14px; margin-top:15px;"><em>---Daivd Pittman</em></p>
+                      <p style=" text-align:right; font-size:10px;"><em>iconnice.com</em></p>
+                </div> 
+                <div class="HeadRightCenter">
+                      <h3><img src="images/arrow-big.jpg" width="22" height="22" style=" margin-right:10px" />Screenshot</h3>
+                </div>  
+                <div class="HeadRightBottom">
+                  <div class="ProOverview">
+                     <div class="ProImg">
+                     <a href="images/pic1big.jpg"><img src="images/pic.jpg" width="91" height="91" border="0" /></a>
+                     <a href="images/pic1big.jpg"><img src="images/pic.jpg" width="91" height="91" border="0" /></a>
+                     <a href="images/pic1big.jpg"><img src="images/pic.jpg" width="91" height="91" border="0" /></a>
+                     <a href="images/pic1big.jpg"><img src="images/pic.jpg" width="91" height="91" border="0" /></a>
+               </div> </div>  </div>  
+           </div>
+     </div>
+     <div id="Contect">
+           <div class="ContectLeft">
+                 <h4>Features</h4>
+             <ul>
+                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                 </ul>
+                <a href="#"><img src="images/learn.jpg" width="87" height="20" border="0" style="margin-left:15px" /></a></div>
+           <div class="ContectRight">
+                <h4>Contact</h4>
+                <p><img src="images/arrow-small.jpg" width="13" height="13" style=" margin-right:10px" />Get in touch with us, or want latest news.</p>
+             <div class="One">
+                          <div class="One_1"></div>
+               <div class="One_2"><input name="textfield" type="text" class="txt" id="textfield" size="55" maxlength="100" value="E-mail address" /></div>
+                          <div style=" clear:both"></div>
+             </div>
+                     <div class="Two">
+                          <div class="Two_1"></div>
+                          <div class="Two_2"><textarea name="textfield2" cols="59" class="txt" id="textfield2">your text</textarea></div>
+                     </div>
+             <img src="images/submit.jpg" class="submit" />
+           </div>
+     </div>
+     <div id="Foot">website design by iconnice.com</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.ProOverview .ProImg a:has(img)').fancybox({
+		'zoomOpacity'			: true,
+		'overlayShow'			: true,
+		'zoomSpeedIn'			: 500,
+		'zoomSpeedOut'			: 500,
+		'hideOnContentClick'	: false
+	});
+}); 
+
+</script>
+</body>
+</html>
