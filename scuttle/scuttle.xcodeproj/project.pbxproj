@@ -16,8 +16,6 @@
 		87DB891B408B5A8456A66EEE /* Pods_scuttle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCD5F5C451B78D989F5B86D /* Pods_scuttle.framework */; };
 		D8308CE81C6FDA5D00F09F49 /* TwilioCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8308CE61C6FDA5D00F09F49 /* TwilioCommon.framework */; };
 		D8308CE91C6FDA5D00F09F49 /* TwilioIPMessagingClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8308CE71C6FDA5D00F09F49 /* TwilioIPMessagingClient.framework */; };
-		D8308CEF1C6FDC4B00F09F49 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8308CED1C6FDC4B00F09F49 /* SwiftyJSON.swift */; };
-		D8308CF01C6FDC4B00F09F49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8308CEE1C6FDC4B00F09F49 /* ViewController.swift */; };
 		D8308CF51C6FDEB400F09F49 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8308CF41C6FDEB400F09F49 /* libc++.tbd */; };
 		D84A0E681C6ECF70009AF566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84A0E671C6ECF70009AF566 /* AppDelegate.swift */; };
 		D84A0E6D1C6ECF70009AF566 /* Scuttle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84A0E6B1C6ECF70009AF566 /* Scuttle.storyboard */; };
@@ -330,7 +328,6 @@
 		D8308CE61C6FDA5D00F09F49 /* TwilioCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioCommon.framework; sourceTree = "<group>"; };
 		D8308CE71C6FDA5D00F09F49 /* TwilioIPMessagingClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioIPMessagingClient.framework; sourceTree = "<group>"; };
 		D8308CEA1C6FDB3400F09F49 /* scuttle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "scuttle-Bridging-Header.h"; path = "scuttle/scuttle-Bridging-Header.h"; sourceTree = "<group>"; };
-		D8308CED1C6FDC4B00F09F49 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		D8308CEE1C6FDC4B00F09F49 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8308CF11C6FDCB600F09F49 /* scuttle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scuttle-Bridging-Header.h"; sourceTree = "<group>"; };
 		D8308CF41C6FDEB400F09F49 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -685,7 +682,6 @@
 		D84A0EA71C6EE090009AF566 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
-				D8308CED1C6FDC4B00F09F49 /* SwiftyJSON.swift */,
 				D8308CEE1C6FDC4B00F09F49 /* ViewController.swift */,
 				D84A10B71C6EF90F009AF566 /* 192 Vector icons($4.99) */,
 				D84A0E6E1C6ECF70009AF566 /* Assets.xcassets */,
@@ -1375,7 +1371,6 @@
 				D84A0EA41C6EE04B009AF566 /* EventFeedViewController.swift in Sources */,
 				21334C721C6F5B0A004857CA /* SettingsViewController.swift in Sources */,
 				D84A0EAA1C6EF832009AF566 /* WebInterface.swift in Sources */,
-				D8308CF01C6FDC4B00F09F49 /* ViewController.swift in Sources */,
 				21334C6A1C6F01DF004857CA /* CreateEventViewController.swift in Sources */,
 				21334C701C6F50E6004857CA /* InvitePageViewController.swift in Sources */,
 				D84A0E9A1C6EDA67009AF566 /* LoginViewController.swift in Sources */,
@@ -1383,7 +1378,6 @@
 				21334C741C6F9A2A004857CA /* UserCell.swift in Sources */,
 				D84A0E681C6ECF70009AF566 /* AppDelegate.swift in Sources */,
 				21334C6C1C6F2265004857CA /* EventPageViewController.swift in Sources */,
-				D8308CEF1C6FDC4B00F09F49 /* SwiftyJSON.swift in Sources */,
 				D84A0E9E1C6EDF9D009AF566 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
