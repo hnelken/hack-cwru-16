@@ -8,12 +8,15 @@
 
 import UIKit
 
-class CreateEventViewController: UIViewController {
+class CreateEventViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var userArray = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        userArray.append("Thad Castle")
+        userArray.append("Alex Moran")
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +24,26 @@ class CreateEventViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return userArray.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("userCell", forIndexPath: indexPath) as! UserCell
+        
+        //cell configuration
+        
+        let userName = userArray[indexPath.row]
+        
+        cell.userName.text = userName
+        cell.userPicture.image = UIImage(contentsOfFile: "scuttle.png")
+        
+        return cell
+    }
 
     /*
     // MARK: - Navigation
