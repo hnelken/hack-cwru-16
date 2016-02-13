@@ -526,34 +526,75 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Description of the event" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jwf-IA-kA2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Description of the event" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jwf-IA-kA2">
                                 <rect key="frame" x="20" y="186" width="555" height="81"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Event Name" borderStyle="roundedRect" placeholder="Event Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8T-8H-Ssm">
+                                <rect key="frame" x="148" y="58" width="432" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Start Date" borderStyle="roundedRect" placeholder="Start Date" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9ZL-Vl-85a">
+                                <rect key="frame" x="148" y="96" width="108" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="End Date" borderStyle="roundedRect" placeholder="End Date" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="onR-TB-bPy">
+                                <rect key="frame" x="483" y="96" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Location" borderStyle="roundedRect" placeholder="Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dcT-l9-E9i">
+                                <rect key="frame" x="148" y="134" width="432" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Tu5-KQ-AFs" secondAttribute="trailing" constant="-20" id="1o4-jS-k7X"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="onR-TB-bPy" secondAttribute="trailing" id="5b5-4X-nJb"/>
+                            <constraint firstItem="bxC-9r-Q1U" firstAttribute="top" secondItem="s8T-8H-Ssm" secondAttribute="bottom" constant="8" id="5xO-ok-rqY"/>
+                            <constraint firstItem="EaQ-6X-I02" firstAttribute="top" secondItem="s8T-8H-Ssm" secondAttribute="bottom" constant="8" id="6WT-xs-eXe"/>
+                            <constraint firstItem="onR-TB-bPy" firstAttribute="top" secondItem="s8T-8H-Ssm" secondAttribute="bottom" constant="8" id="ALX-qF-2e7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EaQ-6X-I02" secondAttribute="trailing" id="D2J-X7-yiD"/>
                             <constraint firstItem="e0V-VU-hbQ" firstAttribute="top" secondItem="Tu5-KQ-AFs" secondAttribute="bottom" constant="8" id="Exe-Li-Ml5"/>
+                            <constraint firstItem="s8T-8H-Ssm" firstAttribute="leading" secondItem="e0V-VU-hbQ" secondAttribute="trailing" constant="8" id="Ftv-nw-CRe"/>
+                            <constraint firstItem="9ZL-Vl-85a" firstAttribute="leading" secondItem="e0V-VU-hbQ" secondAttribute="trailing" constant="8" id="G8T-mZ-8c5"/>
                             <constraint firstItem="Emx-OM-hDK" firstAttribute="top" secondItem="bxC-9r-Q1U" secondAttribute="bottom" constant="8" id="Gcd-bh-V1X"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Jwf-IA-kA2" secondAttribute="leading" id="MZE-az-oL4"/>
                             <constraint firstItem="dQJ-lc-AYJ" firstAttribute="top" secondItem="Tu5-KQ-AFs" secondAttribute="bottom" constant="8" id="P6J-yO-enf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Emx-OM-hDK" secondAttribute="trailing" id="PqM-EA-32T"/>
                             <constraint firstItem="EaQ-6X-I02" firstAttribute="top" secondItem="dQJ-lc-AYJ" secondAttribute="bottom" constant="8" id="Pw0-To-NUF"/>
+                            <constraint firstItem="s8T-8H-Ssm" firstAttribute="top" secondItem="Tu5-KQ-AFs" secondAttribute="bottom" constant="8" id="RfV-BF-MbI"/>
                             <constraint firstItem="dQJ-lc-AYJ" firstAttribute="leading" secondItem="e0V-VU-hbQ" secondAttribute="trailing" constant="8" id="UTq-DB-SDy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dcT-l9-E9i" secondAttribute="trailing" id="WIX-ja-uYS"/>
                             <constraint firstItem="Emx-OM-hDK" firstAttribute="leading" secondItem="e0V-VU-hbQ" secondAttribute="trailing" constant="8" id="aGM-fg-FEk"/>
+                            <constraint firstItem="dcT-l9-E9i" firstAttribute="leading" secondItem="e0V-VU-hbQ" secondAttribute="trailing" constant="8" id="aMA-72-uVb"/>
                             <constraint firstAttribute="leadingMargin" secondItem="e0V-VU-hbQ" secondAttribute="leading" id="b3e-0M-xvs"/>
+                            <constraint firstItem="dcT-l9-E9i" firstAttribute="top" secondItem="9ZL-Vl-85a" secondAttribute="bottom" constant="8" id="b52-WD-qDM"/>
                             <constraint firstItem="bxC-9r-Q1U" firstAttribute="top" secondItem="dQJ-lc-AYJ" secondAttribute="bottom" constant="8" id="f1c-Wc-SZz"/>
                             <constraint firstItem="bxC-9r-Q1U" firstAttribute="leading" secondItem="e0V-VU-hbQ" secondAttribute="trailing" constant="8" id="grT-TH-RGh"/>
+                            <constraint firstItem="Emx-OM-hDK" firstAttribute="top" secondItem="9ZL-Vl-85a" secondAttribute="bottom" constant="8" id="ifG-VS-R8r"/>
+                            <constraint firstItem="Emx-OM-hDK" firstAttribute="top" secondItem="onR-TB-bPy" secondAttribute="bottom" constant="8" id="jGg-kI-IcI"/>
                             <constraint firstItem="Tu5-KQ-AFs" firstAttribute="leading" secondItem="iNo-iO-QLw" secondAttribute="leadingMargin" constant="-20" id="jio-Bc-5Nx"/>
+                            <constraint firstItem="9ZL-Vl-85a" firstAttribute="top" secondItem="s8T-8H-Ssm" secondAttribute="bottom" constant="8" id="nut-14-Vev"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dQJ-lc-AYJ" secondAttribute="trailing" id="ppv-MJ-LbM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s8T-8H-Ssm" secondAttribute="trailing" id="pyp-FG-wwN"/>
+                            <constraint firstItem="dcT-l9-E9i" firstAttribute="top" secondItem="onR-TB-bPy" secondAttribute="bottom" constant="8" id="rQj-cm-kot"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Jwf-IA-kA2" secondAttribute="trailing" constant="5" id="sDj-aU-qEx"/>
                             <constraint firstItem="Jwf-IA-kA2" firstAttribute="top" secondItem="e0V-VU-hbQ" secondAttribute="bottom" constant="8" id="vPk-pu-NrX"/>
                             <constraint firstItem="Emx-OM-hDK" firstAttribute="top" secondItem="EaQ-6X-I02" secondAttribute="bottom" constant="8" id="zKN-5L-d99"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="f1c-Wc-SZz"/>
+                                <exclude reference="Pw0-To-NUF"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fBg-A2-fVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
