@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="script/jquery.fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.easing.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.fancybox.js"></script>
+</head>
+
+<body>
+<div id="warp">
+<div class="head">
+           <div class="logo"><img src="images/logo.gif" width="72" height="72" /></div>
+         <div class="tit">
+                <h1>iBlackboard</h1>
+                <h2>Your great text here</h2>
+      </div>
+           <div class="bird">Nunc id est. Mauris lacus. Ut eget leo. Sed cursus metus. Quisque vulputate euismod libero. Ut non pede. Aenean metus libero, pulvinar sit amet, rhoncus rutrum.</div>
+           <div style="clear:both"></div>
+  </div>
+     <div class="content">
+          <div class="banner">
+               <div class="banner-left">
+                    <div class="banner-txt">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id est. Mauris lacus. Ut eget leo. Sed cursus metus. Quisque vulputate euismod libero. Ut non pede. Aenean metus libero, pulvinar sit amet, rhoncus rutrum, vulputate quis, lectus. Cras posuere venenatis sapien. Fusce mi pede, feugiat sed, interdum non, adipiscing nec, augue. Fusce neque. Vivamus sodales lectus ac leo Quisque vulputate euismod libero.</p>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id est. Mauris lacus. Ut eget leo. Sed cursus metus. Quisque vulputate euismod libero. </p>
+                    </div>
+                    <div class="btn">
+                         <div class="app"><a href="#"><img src="images/app.jpg" width="244" height="66" border="0" /></a></div>
+                        <div class="ProOverview">
+                             <div class="ProImg">
+                        <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="47" height="47" border="0" /></a>
+                        <a href="images/pic1big.jpg"><img src="images/pic2.jpg" width="47" height="47" border="0" /></a>
+                         </div>
+                </div> 
+                         <div style="clear:both"></div> 
+                    </div> 
+               </div>
+               <div class="banner-right"></div>
+          </div>
+          <div class="letter">
+               <div class="letter1"><a href="#"><img src="images/letter.jpg" width="75" height="28" border="0" /></a></div> 
+          </div>
+          <div class="bottom"></div>
+     </div>
+     <div class="foot">Copyright © 2010.iconnice rights reserved.</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.ProOverview .ProImg a:has(img)').fancybox({
+		'zoomOpacity'			: true,
+		'overlayShow'			: true,
+		'zoomSpeedIn'			: 500,
+		'zoomSpeedOut'			: 500,
+		'hideOnContentClick'	: false
+	});
+}); 
+</script>
+</body>
+</html>

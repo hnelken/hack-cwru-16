@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="script/jquery.fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.easing.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.fancybox.js"></script>
+</head>
+
+<body>
+<div id="warp">
+      <div class="head"><img src="images/tit.jpg" width="590" height="70" /></div>
+      <div class="ipad">
+           <div class="ipad-left"></div>
+           <div class="ipad-center">
+                <div class="content">
+                  <div class="content1">
+                       <div class="content1-left">
+                            <h1>Gleather</h1>
+                            <h2>Your cool subtitle here.</h2>
+                       </div>
+                      <div class="ProOverview">
+                           <div class="ProImg">
+                       <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="55" height="55" border="0" /></a>
+                       <a href="images/pic1big.jpg"><img src="images/pic2.jpg" width="55" height="55" border="0" /></a>
+                       <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="55" height="55" border="0" /></a>
+                       <a href="images/pic1big.jpg"><img src="images/pic2.jpg" width="55" height="55" border="0" /></a>
+                       </div>
+                       </div>
+                          <div class="content1-right"><a href="#"><img src="images/btn-app.jpg" width="160" height="55" border="0" /></a></div>
+                          <div style=" clear:both"></div>
+                     </div>
+                     <div class="content2">
+                          <div class="content2-left"><a href="#"><img src="images/grey-blue.jpg" width="110" height="110" border="0" /></a></div>
+                          <div class="content2-right"> 
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+Curabitur commodo enim et lorem facilisis at adipiscing dolor blandit. Duis vel posuere ligula. </p>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                          </div>
+                          <div style=" clear:both"></div>
+                     </div>
+                     <div class="content3">
+                          <div class="content3-1">
+                               <p><img src="images/tit1.jpg" width="120" height="32" /></p>
+                               <span><strong>Lorem ipsum</strong> dolor sit amet, sedi consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br />
+                               et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                               <span><strong>Lorem ipsum</strong> dolor sit amet, sedi consectetur adipisicing elit, sed do eiusmod tempor incididun...</span>
+                          </div>
+                          <div class="content3-1  space">
+                               <p><img src="images/tit2.jpg" width="120" height="32" /></p>
+                               <p><strong>Lorem ipsum</strong> dolor sit amet, sedi consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br />
+                                 et dolore magna aliqua. Ut enim ad <br />
+                                 minim veniam.<br />
+Curabitur commodo enim et lorem <br />
+facilisis at adipiscing dolor blandit. <br />
+Duis vel posuere ligula. </p>
+                          </div>
+                          <div class="content3-1">
+                               <p><img src="images/tit3.jpg" width="120" height="32" /></p>
+                               <p><strong>Lorem ipsum</strong> dolor sit amet, sedi consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br />
+                                 et dolore magna aliqua. Ut enim ad <br />
+                                 minim veniam.<br />
+Curabitur commodo enim et lorem <br />
+facilisis at adipiscing dolor blandit. <br />
+Duis vel posuere ligula. </p>
+                          </div>
+                          <div style=" clear:both"></div>
+                     </div>
+                     <div class="content4">
+                          <div class="content4-left"></div>
+                    <div class="content4-center">
+                               <p>Apps on <a href="#">twitter</a></p>
+                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.....</span>
+                      </div>
+                          <div class="content4-right"></div> 
+                     </div>
+                </div>
+           </div>
+           <div class="ipad-right"></div>
+      </div>
+      <div class="foot">
+            <p>Copyright © 2010.<a href="#">iconnice</a> rights reserved.</p>
+      </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.ProOverview .ProImg a:has(img)').fancybox({
+		'zoomOpacity'			: true,
+		'overlayShow'			: true,
+		'zoomSpeedIn'			: 500,
+		'zoomSpeedOut'			: 500,
+		'hideOnContentClick'	: false
+	});
+}); 
+</script>
+</body>
+</html>

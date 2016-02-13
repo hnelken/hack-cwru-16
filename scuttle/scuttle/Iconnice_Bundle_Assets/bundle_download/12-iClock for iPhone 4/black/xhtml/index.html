@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="script/jquery.fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.easing.js"></script>
+<script type="text/javascript" src="script/jquery.fancybox/jquery.fancybox.js"></script>
+</head>
+
+<body>
+<div id="warp">
+     <div class="nav">
+          <div class="nav-left"></div>
+          <div class="nav-center"><a href="index.html"><img src="images/nav-home1.jpg" width="85" height="38" border="0" /></a><a href="about.html"><img src="images/nav-about.jpg" width="75" height="38" border="0" /></a></div>
+          <div class="nav-right"></div>
+          <div style="clear:both"></div>
+     </div>
+     <div class="banner">
+          <div class="banner-top"><img src="images/clock.jpg" width="139" height="137" /><img src="images/tit.jpg" width="295" height="137" /></div>
+          <div class="banner-content">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id est. Mauris lacus. Ut eget leo. Sed cursus metus. Quisque vulputate euismod libero. Ut non pede. Aenean metus libero, pulvinar sit amet, rhoncus rutrum, vulputate quis, lectus. Cras posuere venenatis sapien. Fusce mi pede, feugiat sed, interdum non, adipiscing nec, augue. Fusce neque. Vivamus sodales lectus ac leo Quisque vulputate euismod libero.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id est. Mauris lacus. Ut eget leo. Sed cursus metus. </p>
+          </div>
+          <div class="banner-icon"> <a href="#"><img src="images/app.jpg" width="240" height="90" border="0" /></a><img src="images/price.jpg" width="76" height="90" border="0" /> </div>
+     </div>
+     <div class="content">
+          <div  class="content1" style=" width:290px;">
+              <h1>About Apps</h1>
+              <span>Lorem ipsum dolor sit amet, consectetur.</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscingelit. Nunc id est. Mauris lacus. Ut <br />
+                eget leo. Sed cursus metus. Quisque vulputate euismod libero. <br />
+Ut non pede. Aenean metus libero, pulvinar sit amet, rhoncus rutrum, vulputate quis, lectus. <br />
+Cras posuere venenatis sapien. <br />
+<a href="#">More</a></p>
+          </div>
+          <div  class="content1">
+              <h1>News</h1>
+              <span>14.01.2009 Monday </span>
+            <p>Consectetur adipiscing elit. <br />
+          Nunc id est. Mauris lacus. Ut eget leo. <br />
+          Sed cursus metus. Quisque vulputate<br />
+euismod libero. Ut non pede. Aenean <br />
+metus libero, pulvinar sit amet, rhoncus <br />
+rutrum.</p>
+            <span style="color:#7b7b7b;">@iconnice.com  Get in touch with us<br />
+24/7 We’ll glad to heard from you.</span>
+          </div>
+          <div  class="content1">
+              <h1>Screenshot</h1>
+              <div class="ProOverview">
+               <div class="ProImg">
+              <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="55" height="55" border="0" /></a>
+              <a href="images/pic1big.jpg"><img src="images/pic2.jpg" width="55" height="55" border="0" /></a><br />
+              <a href="images/pic1big.jpg"><img src="images/pic1.jpg" width="55" height="55" border="0" /></a>
+              <a href="images/pic1big.jpg"><img src="images/pic2.jpg" width="55" height="55" border="0" /></a>
+              </div>
+              
+              <div style="clear:both"></div>
+              </div>
+          </div>
+          <div style="clear:both"></div>
+     </div>
+     <div class="foot">Copyright © 2010.iconnice rights reserved.</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.ProOverview .ProImg a:has(img)').fancybox({
+		'zoomOpacity'			: true,
+		'overlayShow'			: true,
+		'zoomSpeedIn'			: 500,
+		'zoomSpeedOut'			: 500,
+		'hideOnContentClick'	: false
+	});
+}); 
+</script>
+</body>
+</html>

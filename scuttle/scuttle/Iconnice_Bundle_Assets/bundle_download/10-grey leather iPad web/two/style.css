@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body { width:100%; height:auto; background:url(images/bg.jpg); margin:0; padding:0; color:#35405b; font-family:Arial, Helvetica, sans-serif;}
+
+#warp{ width:956px; height:auto; margin:0 auto; padding:0;}
+.ipad{ width:956px; height: 870px;}
+.ipad-left{ float:left; height:870px; width:145px; background:url(images/ipadleft.jpg) no-repeat;}
+.ipad-center{ float:left;width:660px; padding:0; margin:0; height:870px;}
+.center-top{ width:660px; height:739px; background:url(images/ipadbg.jpg) repeat-x; padding:0; margin:0;}
+.top-tit { width:635px; height:110px; padding:30px 0 0 25px; margin:0;}
+.top-tit-left{ float:left; width:110px; padding:0 25px 0 0; margin:0; height:110px;}
+.top-tit-right{ float:right;height:90px; width:500px; padding:20px 0 0 0; margin:0; background:url(images/line.jpg) no-repeat bottom;}
+
+.top-text{ width:620px; height:155px; margin:25px 15px 0 25px; padding:0;}
+.top-text p{ margin:0; padding:0; font-size:14px; line-height:18px;}
+.top-text span{ margin:0; padding:15px 0 0 0; font-size:11px; line-height:14px;display:block;}
+.top-content{ margin:40px 0 0 25px; padding:0; width:635px; height:180px;}
+.content-1{ margin:0; padding:0; width:200px; height:auto; float:left;height:180px;}
+.content-1 p{ margin:0; padding:10px 0 0 0; font-size:11px; line-height:14px;}
+.content-1 span{ margin:0; padding:0; font-size:11px; line-height:14px; background: url(images/three.jpg) no-repeat 0 12px; padding:10px 0 0 15px; display:block;}
+.space{ margin:0 12px; padding:0;float:left;}
+
+.top-bird{ margin:30px 0 0 25px; padding:0; width:635px; height:51px; background:#647688;}
+.top-bird-left{ width:10px; height:51px; float:left; background:url(images/sub-bg-left.jpg) no-repeat;}
+.top-bird-center{ width:555px; height:35px; float:left; padding:8px 0 8px 60px; background:url(images/bird.jpg) no-repeat 0 8px; }
+.top-bird-center p{ color:#FFF; font-size:14px; font-weight:bold; margin:0; padding:0;}
+.top-bird-center a{ color:#6cd3fe; text-decoration:none;}
+.top-bird-center span{ color:#FFF; font-size:10px; margin:5px 0 0 0; padding:0; display:block;}
+.top-bird-right{ width:10px; height:51px; float:left; background:url(images/sub-bg-right.jpg) no-repeat;}
+
+.top-bottom{ width:660px; height:55px; padding:50px 0 0 0;}
+.top-bottom-left{width:145px; float:left; height:45px; margin:0; padding:10px 0 0 15px;}
+h1{ margin:0 ; padding:0; font-weight:lighter; font-size:24px;}
+h2{ margin:0 ; padding:0; font-weight:lighter; font-size:12px;}
+.ProImg{width:260px; float:left; padding:0 0 0 35px; height:55px; margin:0;}
+.ProImg img{ float:left; padding:0 10px 0 0; margin:0;}
+.top-bottom-right{width:160px; float:left;padding:0 0 0 20px; height:55px;}
+
+.center-bottom{ width:660px; height:131px; background:url(images/ipadbottom.jpg) repeat-x;}
+
+.ipad-right{ float:left; height:870px; width:151px; background:url(images/ipadright.jpg) no-repeat;}
+
+.foot{ width:956px; height:50px; text-align:center;}
+.foot p{ color:#FFF; margin:0; padding:0; line-height:50px; font-size:12px;}
+.foot a{ color:#6cd3fe;}
