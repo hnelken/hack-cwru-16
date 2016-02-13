@@ -12,6 +12,8 @@ class EventFeedViewController: UIViewController, UITableViewDataSource, UITableV
     
     var eventArray = [String]()
 
+    @IBOutlet weak var addEventButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
