@@ -1,5 +1,5 @@
 //
-//  EventPageViewController.swift
+//  GuestListViewController.swift
 //  scuttle
 //
 //  Created by Andrew Marmorstein on 2/13/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventPageViewController: UIViewController {
+class GuestListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +21,6 @@ class EventPageViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func backToEventPageSegue(segue:UIStoryboardSegue) {
-    }
 
     /*
     // MARK: - Navigation

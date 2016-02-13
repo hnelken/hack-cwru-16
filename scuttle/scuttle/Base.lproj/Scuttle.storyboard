@@ -484,6 +484,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Og-uo-8SE">
                                         <rect key="frame" x="553" y="9" width="32" height="32"/>
                                         <state key="normal" image="person.png"/>
+                                        <connections>
+                                            <segue destination="TMp-9K-dIa" kind="show" id="GcM-aH-fYd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1176470588" green="0.0" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -601,6 +604,66 @@
                 <exit id="qhe-vX-HCr" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2031" y="327"/>
+        </scene>
+        <!--Guest List View Controller-->
+        <scene sceneID="4dd-cd-IuD">
+            <objects>
+                <viewController id="TMp-9K-dIa" customClass="GuestListViewController" customModule="scuttle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZeC-eF-qL8"/>
+                        <viewControllerLayoutGuide type="bottom" id="uGa-G7-sEP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kcA-LH-Jt0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kXN-IL-xmZ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4V-uz-abi">
+                                        <rect key="frame" x="553" y="9" width="32" height="32"/>
+                                        <state key="normal" image="add1.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezL-ls-TMH">
+                                        <rect key="frame" x="25" y="10" width="68" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Event">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="JnF-fR-bTf" kind="unwind" unwindAction="backToEventPageSegue:" id="0mA-OX-R8Z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1176470588" green="0.0" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="E4V-uz-abi" secondAttribute="trailing" constant="15" id="6Iq-QU-cYR"/>
+                                    <constraint firstAttribute="height" constant="50" id="9U8-qn-iVN"/>
+                                    <constraint firstItem="ezL-ls-TMH" firstAttribute="centerY" secondItem="kXN-IL-xmZ" secondAttribute="centerY" id="NOz-mF-Hyz"/>
+                                    <constraint firstItem="E4V-uz-abi" firstAttribute="centerY" secondItem="kXN-IL-xmZ" secondAttribute="centerY" id="g7n-rw-Ocf"/>
+                                    <constraint firstItem="ezL-ls-TMH" firstAttribute="leading" secondItem="kXN-IL-xmZ" secondAttribute="leading" constant="25" id="m0u-dU-YR4"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xa1-MF-43P">
+                                <rect key="frame" x="0.0" y="51" width="600" height="549"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="kXN-IL-xmZ" secondAttribute="trailing" constant="-20" id="2dT-0H-5d2"/>
+                            <constraint firstItem="Xa1-MF-43P" firstAttribute="leading" secondItem="kcA-LH-Jt0" secondAttribute="leadingMargin" constant="-20" id="3WK-ji-yiG"/>
+                            <constraint firstItem="kXN-IL-xmZ" firstAttribute="leading" secondItem="kcA-LH-Jt0" secondAttribute="leadingMargin" constant="-20" id="Lg8-c3-7de"/>
+                            <constraint firstItem="uGa-G7-sEP" firstAttribute="top" secondItem="Xa1-MF-43P" secondAttribute="bottom" id="VC9-xr-3xF"/>
+                            <constraint firstItem="Xa1-MF-43P" firstAttribute="top" secondItem="kXN-IL-xmZ" secondAttribute="bottom" constant="1" id="e5b-7D-Kzy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xa1-MF-43P" secondAttribute="trailing" constant="-20" id="hKP-W2-DpM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrn-qH-fFL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="JnF-fR-bTf" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2749" y="327"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JmN-98-ZtU">

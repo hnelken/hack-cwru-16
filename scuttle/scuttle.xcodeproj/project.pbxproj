@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		21334C6A1C6F01DF004857CA /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21334C691C6F01DF004857CA /* CreateEventViewController.swift */; };
 		21334C6C1C6F2265004857CA /* EventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21334C6B1C6F2265004857CA /* EventPageViewController.swift */; };
+		21334C6E1C6F4A0B004857CA /* GuestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21334C6D1C6F4A0B004857CA /* GuestListViewController.swift */; };
 		D84A0E681C6ECF70009AF566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84A0E671C6ECF70009AF566 /* AppDelegate.swift */; };
 		D84A0E6D1C6ECF70009AF566 /* Scuttle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84A0E6B1C6ECF70009AF566 /* Scuttle.storyboard */; };
 		D84A0E6F1C6ECF70009AF566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84A0E6E1C6ECF70009AF566 /* Assets.xcassets */; };
@@ -1161,6 +1162,7 @@
 /* Begin PBXFileReference section */
 		21334C691C6F01DF004857CA /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 		21334C6B1C6F2265004857CA /* EventPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageViewController.swift; sourceTree = "<group>"; };
+		21334C6D1C6F4A0B004857CA /* GuestListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestListViewController.swift; sourceTree = "<group>"; };
 		D84A0E641C6ECF70009AF566 /* scuttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scuttle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84A0E671C6ECF70009AF566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D84A0E6C1C6ECF70009AF566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Scuttle.storyboard; sourceTree = "<group>"; };
@@ -2381,6 +2383,7 @@
 				D84A0EA31C6EE04B009AF566 /* EventFeedViewController.swift */,
 				21334C691C6F01DF004857CA /* CreateEventViewController.swift */,
 				21334C6B1C6F2265004857CA /* EventPageViewController.swift */,
+				21334C6D1C6F4A0B004857CA /* GuestListViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -5771,6 +5774,7 @@
 				D84A0EAA1C6EF832009AF566 /* WebInterface.swift in Sources */,
 				21334C6A1C6F01DF004857CA /* CreateEventViewController.swift in Sources */,
 				D84A0E9A1C6EDA67009AF566 /* LoginViewController.swift in Sources */,
+				21334C6E1C6F4A0B004857CA /* GuestListViewController.swift in Sources */,
 				D84A0E681C6ECF70009AF566 /* AppDelegate.swift in Sources */,
 				21334C6C1C6F2265004857CA /* EventPageViewController.swift in Sources */,
 				D84A0E9E1C6EDF9D009AF566 /* Constants.swift in Sources */,
