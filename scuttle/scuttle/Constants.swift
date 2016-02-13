@@ -14,3 +14,12 @@ let kLoginSegueID = "loginSegue"
 
 // CELL IDENTIFIERS
 let kEventCellID = "eventFeedCell"
+
+
+// GLOBAL REFS
+let webInterface = WebInterface()
+
+
+// API ROUTES
+let kBaseURL = "http://localhost:8000/"
+let kTokenRequestRoute = "token.php?device="
