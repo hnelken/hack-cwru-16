@@ -14,6 +14,7 @@ let kLoginSegueID = "loginSegue"
 
 // CELL IDENTIFIERS
 let kEventCellID = "eventFeedCell"
+let kUserCellID = "userCell"
 
 
 // GLOBAL REFS

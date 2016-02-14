@@ -10,8 +10,23 @@ import UIKit
 
 class CreateEventViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    
+    @IBOutlet weak var eventPicture: UIImageView!
+    @IBOutlet weak var eventName: UITextField!
+    @IBOutlet weak var eventLocation: UITextField!
+    @IBOutlet weak var startDate: UITextField!
+    @IBOutlet weak var endDate: UITextField!
+    @IBOutlet weak var eventDescription: UITextView!
+    
     var userArray = [String]()
 
+    @IBAction func addImage(sender: AnyObject) {
+    }
+    
+    @IBAction func createEvent(sender: AnyObject) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,7 +48,7 @@ class CreateEventViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("userCell", forIndexPath: indexPath) as! UserCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(kUserCellID, forIndexPath: indexPath) as! UserCell
         
         //cell configuration
         
@@ -43,6 +58,19 @@ class CreateEventViewController: UIViewController, UITableViewDataSource, UITabl
         cell.userPicture.image = UIImage(contentsOfFile: "scuttle.png")
         
         return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let cell = tableView.cellForRowAtIndexPath(indexPath)
+        
+        if cell!.accessoryType == .Checkmark {
+            cell!.accessoryType = .None
+        } else {
+            cell!.accessoryType = .Checkmark
+        }
+        
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
 
     /*

@@ -13,6 +13,7 @@
 		21334C701C6F50E6004857CA /* InvitePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21334C6F1C6F50E6004857CA /* InvitePageViewController.swift */; };
 		21334C721C6F5B0A004857CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21334C711C6F5B0A004857CA /* SettingsViewController.swift */; };
 		21334C741C6F9A2A004857CA /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21334C731C6F9A2A004857CA /* UserCell.swift */; };
+		2159F54D1C705E7300CC621A /* InviteUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2159F54C1C705E7300CC621A /* InviteUserCell.swift */; };
 		87DB891B408B5A8456A66EEE /* Pods_scuttle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCD5F5C451B78D989F5B86D /* Pods_scuttle.framework */; };
 		D8308CE81C6FDA5D00F09F49 /* TwilioCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8308CE61C6FDA5D00F09F49 /* TwilioCommon.framework */; };
 		D8308CE91C6FDA5D00F09F49 /* TwilioIPMessagingClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8308CE71C6FDA5D00F09F49 /* TwilioIPMessagingClient.framework */; };
@@ -324,6 +325,7 @@
 		21334C6F1C6F50E6004857CA /* InvitePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitePageViewController.swift; sourceTree = "<group>"; };
 		21334C711C6F5B0A004857CA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		21334C731C6F9A2A004857CA /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		2159F54C1C705E7300CC621A /* InviteUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteUserCell.swift; sourceTree = "<group>"; };
 		C5BE49C0958C5A488B6A6C41 /* Pods-scuttle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scuttle.release.xcconfig"; path = "Pods/Target Support Files/Pods-scuttle/Pods-scuttle.release.xcconfig"; sourceTree = "<group>"; };
 		D8308CE61C6FDA5D00F09F49 /* TwilioCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioCommon.framework; sourceTree = "<group>"; };
 		D8308CE71C6FDA5D00F09F49 /* TwilioIPMessagingClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioIPMessagingClient.framework; sourceTree = "<group>"; };
@@ -697,6 +699,7 @@
 			children = (
 				D84A0E9B1C6EDC4A009AF566 /* EventFeedCell.swift */,
 				21334C731C6F9A2A004857CA /* UserCell.swift */,
+				2159F54C1C705E7300CC621A /* InviteUserCell.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -1374,6 +1377,7 @@
 				21334C6A1C6F01DF004857CA /* CreateEventViewController.swift in Sources */,
 				21334C701C6F50E6004857CA /* InvitePageViewController.swift in Sources */,
 				D84A0E9A1C6EDA67009AF566 /* LoginViewController.swift in Sources */,
+				2159F54D1C705E7300CC621A /* InviteUserCell.swift in Sources */,
 				21334C6E1C6F4A0B004857CA /* GuestListViewController.swift in Sources */,
 				21334C741C6F9A2A004857CA /* UserCell.swift in Sources */,
 				D84A0E681C6ECF70009AF566 /* AppDelegate.swift in Sources */,

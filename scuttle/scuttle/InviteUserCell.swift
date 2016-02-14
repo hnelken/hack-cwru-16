@@ -1,18 +1,17 @@
 //
-//  UserCell.swift
+//  InviteUserCell.swift
 //  scuttle
 //
-//  Created by Andrew Marmorstein on 2/13/16.
+//  Created by Andrew Marmorstein on 2/14/16.
 //  Copyright © 2016 HackCWRU. All rights reserved.
 //
 
 import UIKit
 
-class UserCell: UITableViewCell {
+class InviteUserCell: UITableViewCell {
 
     @IBOutlet weak var userPicture: UIImageView!
     @IBOutlet weak var userName: UILabel!
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()

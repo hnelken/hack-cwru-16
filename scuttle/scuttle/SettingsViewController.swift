@@ -10,6 +10,23 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    
+    @IBOutlet weak var userImage: UIImageView!
+    @IBOutlet weak var userName: UITextField!
+    
+    
+    @IBAction func saveChanges(sender: AnyObject) {
+    }
+    
+    @IBAction func linkToFB(sender: AnyObject) {
+    }
+    
+    @IBAction func editUserName(sender: AnyObject) {
+    }
+    
+    @IBAction func editUserImage(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
