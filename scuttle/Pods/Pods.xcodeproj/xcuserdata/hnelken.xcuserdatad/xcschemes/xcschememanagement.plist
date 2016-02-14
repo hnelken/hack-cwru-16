@@ -14,10 +14,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SlackTextViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>474AAAFB8102F29BB499BE45E72B6180</key>
+		<key>28E45D099F0B36BB1767A56C6A19EFD3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -27,7 +32,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB2489100723202D58817D1DC3194750</key>
+		<key>B0C7D40CBC7A91A7BA0884ADBAB58E07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

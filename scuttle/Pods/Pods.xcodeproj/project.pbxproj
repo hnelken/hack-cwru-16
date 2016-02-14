@@ -7,33 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CABD0E07545D6A360BC69B138BD87B7 /* Error.swift */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F5A00A2F7DD20B99DEBE9ED5CAD57 /* Timeline.swift */; };
-		17FC5BAE71A5AE957A9F43B4CA2CB9A9 /* Pods-scuttle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76338F11FC2C3536A2ABD80A800C286B /* Pods-scuttle-dummy.m */; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF56913FEB153D06473302228E3CC07 /* Validation.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27177575630E21A23090FBB64F1FF751 /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C75CD48F82FBD83071C13DA7110995 /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA4DB6DB99686B7AEAD869A8083F83 /* Manager.swift */; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CA48ACFFE26778B47B39D458CEE7E /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6861F11A1938BD3C5E5AB42C1BA66 /* Download.swift */; };
-		5E78CE7FA58F576A6EE8AD0D2116EF81 /* Pods-scuttle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2411D0788BD86F03894BBD79784E6A48 /* Pods-scuttle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DF71CE010D7A597E8D4E0BF86671A /* Response.swift */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E66D540BEBBE74B960438C17BE1089F /* ServerTrustPolicy.swift */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AFD33DBB95248399C54546B6EF0367 /* Alamofire.swift */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 381C42F15870E76D92B45FF5EB503189 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430B9777C48647227C05450D38802546 /* Result.swift */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF0BE7ABB7727308D917DDE65E9676 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304CF49A35E6E3DFD39D65E88E7EF85 /* Stream.swift */; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201042C9E2C76CE0813D5902FFB38F6 /* Notifications.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE397885EE7E08B85EE8814D13732F /* ParameterEncoding.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFE14D2FAB2305F95CEA2960338B33A /* MultipartFormData.swift */; };
-		C85E7DDCCAC60D88656CBAD00140CB69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438C0F388B974FC1D460F177F1B6C5C2 /* Request.swift */; };
+		02057448F7EB37C77E5A4EC23703D0CD /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70289527555973314C7F4B0D8A972A25 /* UIView+SLKAdditions.m */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5A675F41B722B99D1174BD4B607A7 /* Error.swift */; };
+		0CE74098227ABE497BBAD5F9D5F7AF03 /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593125792CAB228F5B5119C37E249FAC /* SLKTextViewController.m */; };
+		0D2656F23089404044D07E2245D3217F /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B37012EA4EDDD8C94AAA421382417D /* SLKTypingIndicatorView.m */; };
+		107F99D13AD8BF2C0239837EBAC922DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCE85044B453A17D1772438E7665A5 /* Timeline.swift */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9C5C54CF3B106340110ADC0A4E7 /* Validation.swift */; };
+		30B258A6C0FE90B3256AC850D48F6FCE /* SLKTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0BD89097BC9C657D0D233F79737564 /* SLKTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CC51D530248453D5BE5384A2EA5DA5 /* UIView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE02C0929CA57CAF36A155A18889A8FF /* UIView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F7E4BC57E4FCAA732D0F4041370AB /* NetworkReachabilityManager.swift */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CB7F1913D62005C5E3AB258F0E5DCE /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EB0F416CFF4C0D2A0744F09D3A277 /* Manager.swift */; };
+		4A8CFEC24F2ED3D2A0463B8B3EFFD7A8 /* SLKTextView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC19E501E06B514BE777A52D8CB5828 /* SLKTextView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AC278DE1650C8B5A83A9FB58AE900AC /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BEEEA76679A7B447A39F95E0944CE4 /* UIResponder+SLKAdditions.m */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C7F504F0F03125D22C956A9495489 /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9D35E91737097CFFB72B7FED78BD6D /* Download.swift */; };
+		62324D3CDBA144CB703BA7A383D36997 /* SLKUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E331E506841ECCF1733BA7A136B1D942 /* SLKUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69FF1152CDFE3EEFA6AA153996609F /* Response.swift */; };
+		6E9A27061E57D6299E0BEDFDEC0AEFCF /* UIResponder+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E57C8080B3341B0F7EDB4ED4E316C3FF /* UIResponder+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9663B6C84B77764A210B81E2ED11CC /* ServerTrustPolicy.swift */; };
+		80F9E5BA68BA753F1394EA0BA97E6622 /* SLKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 74839E58E80897FD70B569FFC9EF84C0 /* SLKTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8116DA964655438488A84587833C5CFB /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE02AB397C484DD1D4A0778637C3B6BE /* SLKTextInputbar.m */; };
+		8C1485C4FB1B851D90F753EB178D8C9D /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 454DAC69F742737DD6FA4FCCE5120CCA /* SLKInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197955F0F89292C761E5D6371213FB7 /* Alamofire.swift */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB82856163ECD1E28DD8E00BA42DE48B /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D45DF6D4B3047A7C4FB5C64D29D9DC /* UIScrollView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F509C7AACCFA8DDA0201335DDF9F259F /* UIScrollView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A147B7701B7EBF9961F57EB0A80D4AAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE2F988007B29C871C68B4BA452588 /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808D338D9671FDCD0D5827458FB49F4 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EACD02FEB7CCF7C95CD353DB1FB022 /* Stream.swift */; };
+		BAB1B98732F4F85224ABB17F04F55B06 /* SLKTypingIndicatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3A0685B98FDF531B863E3C80A8641B /* SLKTypingIndicatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A24465729AFBDA0C40EA7E75D89E /* Notifications.swift */; };
+		C006EDC2BBAC527797B03C91EDBFA99C /* Pods-scuttle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2411D0788BD86F03894BBD79784E6A48 /* Pods-scuttle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDB9A8B2661C865FC8BC5A83AE3D33 /* ParameterEncoding.swift */; };
+		C5415798623886DD1AA77E352AC32B26 /* SlackTextViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6590F8A2FFB1CED522EF9143E7920A /* SlackTextViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A5F6B6F7F4E4D01C5E8203A77B936A /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 095445B3BD121CAFF099CC071BED5599 /* UIScrollView+SLKAdditions.m */; };
+		C6387E55156203B9CE3B69366259948F /* SLKTypingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E375321450FD722A3FFC1C82C5D181A /* SLKTypingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7AFB98B5E65F5C55882BF8451BDB24A /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FD9A51E8AC1DB2A36816634502B28 /* SLKTextView+SLKAdditions.m */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF72CC8C9EAD7CA8DD8659DADF518E /* MultipartFormData.swift */; };
+		CA037B5AB7CE4036881141E03BE3C5AC /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48362EC63444AE662FBDDA791D503B7 /* SLKTextView.m */; };
+		CF759081D158BD6C3EF61A3336CA4A90 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B2A2683EC3C3055459EEB2D9ACFB8A /* SLKInputAccessoryView.m */; };
+		D39C31107A8058C1DFF90DBD8AC4D956 /* SlackTextViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FA170266CA941C34010B5460BFE17 /* SlackTextViewController-dummy.m */; };
+		D97980D6EAD6ED2155F0C168D925DE57 /* Pods-scuttle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76338F11FC2C3536A2ABD80A800C286B /* Pods-scuttle-dummy.m */; };
+		E7D2E9BFE9356B1F4BD7A80D39C376FF /* SLKTextInputbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1586ED4741ACAFBB499019D7A69B26A6 /* SLKTextInputbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD9EADE1F8E24C339794A9C5E32CD98 /* Request.swift */; };
 		F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79C3C2FAB73E3E434363E36A597E63AD /* PBXContainerItemProxy */ = {
+		62D1CA542D29C037C01384734D640705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E45D099F0B36BB1767A56C6A19EFD3;
+			remoteInfo = SlackTextViewController;
+		};
+		6CEA309DB0413B50680272BAAE12A38B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -43,56 +73,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B2CA48ACFFE26778B47B39D458CEE7E /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		0BDF0BE7ABB7727308D917DDE65E9676 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		0BF56913FEB153D06473302228E3CC07 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		0CABD0E07545D6A360BC69B138BD87B7 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		049DCD86349530AF9EB92028472AD711 /* TwilioIPMessagingClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioIPMessagingClient.framework; sourceTree = "<group>"; };
+		095445B3BD121CAFF099CC071BED5599 /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SLKAdditions.m"; path = "Source/UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		0C9663B6C84B77764A210B81E2ED11CC /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		14B2A2683EC3C3055459EEB2D9ACFB8A /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKInputAccessoryView.m; path = Source/SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		1586ED4741ACAFBB499019D7A69B26A6 /* SLKTextInputbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextInputbar.h; path = Source/SLKTextInputbar.h; sourceTree = "<group>"; };
+		15DF72CC8C9EAD7CA8DD8659DADF518E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		16EACD02FEB7CCF7C95CD353DB1FB022 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		1808D338D9671FDCD0D5827458FB49F4 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		1D5AA9F11D5334B4C4FE8EA904FA50D6 /* Pods_scuttle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scuttle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAD1F61319AEC0273669F6F4353A2C9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B37012EA4EDDD8C94AAA421382417D /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTypingIndicatorView.m; path = Source/SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		216EB9C5C54CF3B106340110ADC0A4E7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		21A523A3D469DA4CFA5FAC0B4C1C0F14 /* SlackTextViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SlackTextViewController.modulemap; sourceTree = "<group>"; };
 		2411D0788BD86F03894BBD79784E6A48 /* Pods-scuttle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-scuttle-umbrella.h"; sourceTree = "<group>"; };
-		24AFD33DBB95248399C54546B6EF0367 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		27177575630E21A23090FBB64F1FF751 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		3127C37EB8595970C025B23DDF52E86A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		381C42F15870E76D92B45FF5EB503189 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		3AEA4DB6DB99686B7AEAD869A8083F83 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		2C0BD89097BC9C657D0D233F79737564 /* SLKTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextViewController.h; path = Source/SLKTextViewController.h; sourceTree = "<group>"; };
+		39BE2F988007B29C871C68B4BA452588 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		3E0C2EF63337931ACEB1ADC28C028FF3 /* Pods-scuttle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scuttle.debug.xcconfig"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E7B1DEBBB2AFB2A1659A1892933C87A /* Pods-scuttle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scuttle-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4304CF49A35E6E3DFD39D65E88E7EF85 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		430B9777C48647227C05450D38802546 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		438C0F388B974FC1D460F177F1B6C5C2 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		4A6769D7EF5ED3E4F7216F54842CA986 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		44CB7F1913D62005C5E3AB258F0E5DCE /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		454DAC69F742737DD6FA4FCCE5120CCA /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKInputAccessoryView.h; path = Source/SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		4E375321450FD722A3FFC1C82C5D181A /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorView.h; path = Source/SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		4EEDB9A8B2661C865FC8BC5A83AE3D33 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		54F5A675F41B722B99D1174BD4B607A7 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		57BEEEA76679A7B447A39F95E0944CE4 /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+SLKAdditions.m"; path = "Source/UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		593125792CAB228F5B5119C37E249FAC /* SLKTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextViewController.m; path = Source/SLKTextViewController.m; sourceTree = "<group>"; };
+		5CD9EADE1F8E24C339794A9C5E32CD98 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		5F8F7E4BC57E4FCAA732D0F4041370AB /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		658E34FE9C04C05AF20290687446B007 /* Pods-scuttle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scuttle-frameworks.sh"; sourceTree = "<group>"; };
-		65FE397885EE7E08B85EE8814D13732F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		673C04C1B453459120AE6FECDDF23F11 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		6B3F5A00A2F7DD20B99DEBE9ED5CAD57 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		70289527555973314C7F4B0D8A972A25 /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SLKAdditions.m"; path = "Source/UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		7197955F0F89292C761E5D6371213FB7 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7334D032B13CF9920548DC8067784E17 /* SlackTextViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlackTextViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74839E58E80897FD70B569FFC9EF84C0 /* SLKTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextView.h; path = Source/SLKTextView.h; sourceTree = "<group>"; };
 		76338F11FC2C3536A2ABD80A800C286B /* Pods-scuttle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scuttle-dummy.m"; sourceTree = "<group>"; };
+		76972357064760035A24AEFEA71DDAD7 /* SlackTextViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackTextViewController-prefix.pch"; sourceTree = "<group>"; };
+		7841FA2CD1675165A3C08E414016BB93 /* TwilioCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioCommon.framework; sourceTree = "<group>"; };
+		7A0FD9A51E8AC1DB2A36816634502B28 /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SLKTextView+SLKAdditions.m"; path = "Source/SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
 		7A57986C073BE86145E9E545F279AC9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DF3C26C3B421EE5B7C9AFD2864CB709 /* Pods_scuttle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scuttle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		861FE26D04B7FD52DC2809B41F0C8633 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DCE85044B453A17D1772438E7665A5 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		8C17DE48D79794C75AB192FD5EA909D7 /* Pods-scuttle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scuttle-resources.sh"; sourceTree = "<group>"; };
-		8D8DF71CE010D7A597E8D4E0BF86671A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		9E66D540BEBBE74B960438C17BE1089F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		8D9D35E91737097CFFB72B7FED78BD6D /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		8D9FA170266CA941C34010B5460BFE17 /* SlackTextViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlackTextViewController-dummy.m"; sourceTree = "<group>"; };
+		8E3A0685B98FDF531B863E3C80A8641B /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorProtocol.h; path = Source/SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
 		AC082F593A1B7B9492E280E905EAC2A8 /* Pods-scuttle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scuttle.release.xcconfig"; sourceTree = "<group>"; };
-		AEFE14D2FAB2305F95CEA2960338B33A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		B9E8F390D41D368C82E684B75597DC27 /* TwilioIPMessagingClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioIPMessagingClient.framework; sourceTree = "<group>"; };
+		AE02AB397C484DD1D4A0778637C3B6BE /* SLKTextInputbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextInputbar.m; path = Source/SLKTextInputbar.m; sourceTree = "<group>"; };
+		B48362EC63444AE662FBDDA791D503B7 /* SLKTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextView.m; path = Source/SLKTextView.m; sourceTree = "<group>"; };
+		B816A24465729AFBDA0C40EA7E75D89E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		B90E16AD4083AA5ECB438F6049D6D6C7 /* SlackTextViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlackTextViewController.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAB6861F11A1938BD3C5E5AB42C1BA66 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		BC1A124C886825824348E2550A3C49F4 /* TwilioCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioCommon.framework; sourceTree = "<group>"; };
-		C6C1153F2632011070A89F2522EFE5E1 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		BB82856163ECD1E28DD8E00BA42DE48B /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		BD6590F8A2FFB1CED522EF9143E7920A /* SlackTextViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackTextViewController-umbrella.h"; sourceTree = "<group>"; };
+		C33184C35646C35982C38EBE206337E6 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C5B053E3B1E6B83E11E86356053EDA60 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		CAA4381B27FDA616DECBEF6FE4B9C157 /* Pods-scuttle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-scuttle.modulemap"; sourceTree = "<group>"; };
-		D1C75CD48F82FBD83071C13DA7110995 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		D201042C9E2C76CE0813D5902FFB38F6 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		CE7C7F504F0F03125D22C956A9495489 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		D52F769FA737BF4008E302494B15A2CC /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		DE02C0929CA57CAF36A155A18889A8FF /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SLKAdditions.h"; path = "Source/UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		DEC19E501E06B514BE777A52D8CB5828 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SLKTextView+SLKAdditions.h"; path = "Source/SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		E331E506841ECCF1733BA7A136B1D942 /* SLKUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKUIConstants.h; path = Source/SLKUIConstants.h; sourceTree = "<group>"; };
+		E57C8080B3341B0F7EDB4ED4E316C3FF /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+SLKAdditions.h"; path = "Source/UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		E95EB0F416CFF4C0D2A0744F09D3A277 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		EB4D4C7C7AE19942A4B6AAEA102C32F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F509C7AACCFA8DDA0201335DDF9F259F /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SLKAdditions.h"; path = "Source/UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
 		F5703C779BF73BE5782A1B158BB064BA /* Pods-scuttle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scuttle-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9BEA5D126AD75E40B6DF71AAED666D8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD69FF1152CDFE3EEFA6AA153996609F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FBF5C76051BDCCB3277C5C2BDD90471 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C85E7DDCCAC60D88656CBAD00140CB69 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,23 +150,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B76E7ED30BDD35DE82713652D3DB94B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A147B7701B7EBF9961F57EB0A80D4AAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AEE5974820EC6F761ADD8607A92A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F99D13AD8BF2C0239837EBAC922DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0738E313591FBF6B36DC22C8E6E48F7E /* TwilioCommon */ = {
+		12C6A38FCAF3002B634FED580E942C0B /* TwilioIPMessagingClient */ = {
 			isa = PBXGroup;
 			children = (
-				F5CE0721A8EFBC643B98CC02A1A509B0 /* Frameworks */,
-			);
-			path = TwilioCommon;
-			sourceTree = "<group>";
-		};
-		1CFFF9FFB5E2CA343A8BC786E80C67BE /* TwilioIPMessagingClient */ = {
-			isa = PBXGroup;
-			children = (
-				E73C9C7662C0953ADA2418300003EDA4 /* Frameworks */,
+				B1E2DAFB88E5183F6CE7475435999EC6 /* Frameworks */,
 			);
 			path = TwilioIPMessagingClient;
+			sourceTree = "<group>";
+		};
+		3D1431F2DA7F0A6AA6B28BF6FACFFDCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				861FE26D04B7FD52DC2809B41F0C8633 /* Info.plist */,
+				21A523A3D469DA4CFA5FAC0B4C1C0F14 /* SlackTextViewController.modulemap */,
+				B90E16AD4083AA5ECB438F6049D6D6C7 /* SlackTextViewController.xcconfig */,
+				8D9FA170266CA941C34010B5460BFE17 /* SlackTextViewController-dummy.m */,
+				76972357064760035A24AEFEA71DDAD7 /* SlackTextViewController-prefix.pch */,
+				BD6590F8A2FFB1CED522EF9143E7920A /* SlackTextViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlackTextViewController";
+			sourceTree = "<group>";
+		};
+		543BD82B4BE869070EA34251DD631356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E01BEA1B49FFE68A92726003942C370D /* Alamofire */,
+				5D331E26BF01149FAFD3DAB9FC7CBF33 /* SlackTextViewController */,
+				8F92FA03C5001A6EEBB68FC40E2421C8 /* TwilioCommon */,
+				12C6A38FCAF3002B634FED580E942C0B /* TwilioIPMessagingClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D331E26BF01149FAFD3DAB9FC7CBF33 /* SlackTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				454DAC69F742737DD6FA4FCCE5120CCA /* SLKInputAccessoryView.h */,
+				14B2A2683EC3C3055459EEB2D9ACFB8A /* SLKInputAccessoryView.m */,
+				1586ED4741ACAFBB499019D7A69B26A6 /* SLKTextInputbar.h */,
+				AE02AB397C484DD1D4A0778637C3B6BE /* SLKTextInputbar.m */,
+				74839E58E80897FD70B569FFC9EF84C0 /* SLKTextView.h */,
+				B48362EC63444AE662FBDDA791D503B7 /* SLKTextView.m */,
+				DEC19E501E06B514BE777A52D8CB5828 /* SLKTextView+SLKAdditions.h */,
+				7A0FD9A51E8AC1DB2A36816634502B28 /* SLKTextView+SLKAdditions.m */,
+				2C0BD89097BC9C657D0D233F79737564 /* SLKTextViewController.h */,
+				593125792CAB228F5B5119C37E249FAC /* SLKTextViewController.m */,
+				8E3A0685B98FDF531B863E3C80A8641B /* SLKTypingIndicatorProtocol.h */,
+				4E375321450FD722A3FFC1C82C5D181A /* SLKTypingIndicatorView.h */,
+				20B37012EA4EDDD8C94AAA421382417D /* SLKTypingIndicatorView.m */,
+				E331E506841ECCF1733BA7A136B1D942 /* SLKUIConstants.h */,
+				E57C8080B3341B0F7EDB4ED4E316C3FF /* UIResponder+SLKAdditions.h */,
+				57BEEEA76679A7B447A39F95E0944CE4 /* UIResponder+SLKAdditions.m */,
+				F509C7AACCFA8DDA0201335DDF9F259F /* UIScrollView+SLKAdditions.h */,
+				095445B3BD121CAFF099CC071BED5599 /* UIScrollView+SLKAdditions.m */,
+				DE02C0929CA57CAF36A155A18889A8FF /* UIView+SLKAdditions.h */,
+				70289527555973314C7F4B0D8A972A25 /* UIView+SLKAdditions.m */,
+				3D1431F2DA7F0A6AA6B28BF6FACFFDCD /* Support Files */,
+			);
+			path = SlackTextViewController;
+			sourceTree = "<group>";
+		};
+		6043BC426B075EEAE7B475B6268F81AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7841FA2CD1675165A3C08E414016BB93 /* TwilioCommon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -125,34 +243,26 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8D4BCB15EB02A095E62922785674F468 /* Pods */,
-				C050DF3EB55B699FCBC380A1DF5C31CE /* Products */,
+				543BD82B4BE869070EA34251DD631356 /* Pods */,
+				FC223C3DD5FD55FCAE68B16C6C4D2D4B /* Products */,
 				BEFA555C17EBDBE5CB3DDB7F79F6A195 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D4BCB15EB02A095E62922785674F468 /* Pods */ = {
+		8F92FA03C5001A6EEBB68FC40E2421C8 /* TwilioCommon */ = {
 			isa = PBXGroup;
 			children = (
-				D49DDE55C790F8F16D8F4E9CE7E81D0E /* Alamofire */,
-				0738E313591FBF6B36DC22C8E6E48F7E /* TwilioCommon */,
-				1CFFF9FFB5E2CA343A8BC786E80C67BE /* TwilioIPMessagingClient */,
+				6043BC426B075EEAE7B475B6268F81AA /* Frameworks */,
 			);
-			name = Pods;
+			path = TwilioCommon;
 			sourceTree = "<group>";
 		};
-		983A9A54E24D5B0133C868F0CDC69C65 /* Support Files */ = {
+		B1E2DAFB88E5183F6CE7475435999EC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A6769D7EF5ED3E4F7216F54842CA986 /* Alamofire.modulemap */,
-				673C04C1B453459120AE6FECDDF23F11 /* Alamofire.xcconfig */,
-				0BDF0BE7ABB7727308D917DDE65E9676 /* Alamofire-dummy.m */,
-				C6C1153F2632011070A89F2522EFE5E1 /* Alamofire-prefix.pch */,
-				381C42F15870E76D92B45FF5EB503189 /* Alamofire-umbrella.h */,
-				3127C37EB8595970C025B23DDF52E86A /* Info.plist */,
+				049DCD86349530AF9EB92028472AD711 /* TwilioIPMessagingClient.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -179,13 +289,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C050DF3EB55B699FCBC380A1DF5C31CE /* Products */ = {
+		C48D8FF1B40D3E31F02DE87C0E349987 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9BEA5D126AD75E40B6DF71AAED666D8 /* Alamofire.framework */,
-				7DF3C26C3B421EE5B7C9AFD2864CB709 /* Pods_scuttle.framework */,
+				C5B053E3B1E6B83E11E86356053EDA60 /* Alamofire.modulemap */,
+				D52F769FA737BF4008E302494B15A2CC /* Alamofire.xcconfig */,
+				1808D338D9671FDCD0D5827458FB49F4 /* Alamofire-dummy.m */,
+				C33184C35646C35982C38EBE206337E6 /* Alamofire-prefix.pch */,
+				BB82856163ECD1E28DD8E00BA42DE48B /* Alamofire-umbrella.h */,
+				EB4D4C7C7AE19942A4B6AAEA102C32F3 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		CCABC6C7D9CC678426E26E38818916A5 /* Pods-scuttle */ = {
@@ -206,55 +321,68 @@
 			path = "Target Support Files/Pods-scuttle";
 			sourceTree = "<group>";
 		};
-		D49DDE55C790F8F16D8F4E9CE7E81D0E /* Alamofire */ = {
+		E01BEA1B49FFE68A92726003942C370D /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				24AFD33DBB95248399C54546B6EF0367 /* Alamofire.swift */,
-				BAB6861F11A1938BD3C5E5AB42C1BA66 /* Download.swift */,
-				0CABD0E07545D6A360BC69B138BD87B7 /* Error.swift */,
-				3AEA4DB6DB99686B7AEAD869A8083F83 /* Manager.swift */,
-				AEFE14D2FAB2305F95CEA2960338B33A /* MultipartFormData.swift */,
-				27177575630E21A23090FBB64F1FF751 /* NetworkReachabilityManager.swift */,
-				D201042C9E2C76CE0813D5902FFB38F6 /* Notifications.swift */,
-				65FE397885EE7E08B85EE8814D13732F /* ParameterEncoding.swift */,
-				438C0F388B974FC1D460F177F1B6C5C2 /* Request.swift */,
-				8D8DF71CE010D7A597E8D4E0BF86671A /* Response.swift */,
-				D1C75CD48F82FBD83071C13DA7110995 /* ResponseSerialization.swift */,
-				430B9777C48647227C05450D38802546 /* Result.swift */,
-				9E66D540BEBBE74B960438C17BE1089F /* ServerTrustPolicy.swift */,
-				4304CF49A35E6E3DFD39D65E88E7EF85 /* Stream.swift */,
-				6B3F5A00A2F7DD20B99DEBE9ED5CAD57 /* Timeline.swift */,
-				0B2CA48ACFFE26778B47B39D458CEE7E /* Upload.swift */,
-				0BF56913FEB153D06473302228E3CC07 /* Validation.swift */,
-				983A9A54E24D5B0133C868F0CDC69C65 /* Support Files */,
+				7197955F0F89292C761E5D6371213FB7 /* Alamofire.swift */,
+				8D9D35E91737097CFFB72B7FED78BD6D /* Download.swift */,
+				54F5A675F41B722B99D1174BD4B607A7 /* Error.swift */,
+				E95EB0F416CFF4C0D2A0744F09D3A277 /* Manager.swift */,
+				15DF72CC8C9EAD7CA8DD8659DADF518E /* MultipartFormData.swift */,
+				5F8F7E4BC57E4FCAA732D0F4041370AB /* NetworkReachabilityManager.swift */,
+				B816A24465729AFBDA0C40EA7E75D89E /* Notifications.swift */,
+				4EEDB9A8B2661C865FC8BC5A83AE3D33 /* ParameterEncoding.swift */,
+				5CD9EADE1F8E24C339794A9C5E32CD98 /* Request.swift */,
+				FD69FF1152CDFE3EEFA6AA153996609F /* Response.swift */,
+				44CB7F1913D62005C5E3AB258F0E5DCE /* ResponseSerialization.swift */,
+				39BE2F988007B29C871C68B4BA452588 /* Result.swift */,
+				0C9663B6C84B77764A210B81E2ED11CC /* ServerTrustPolicy.swift */,
+				16EACD02FEB7CCF7C95CD353DB1FB022 /* Stream.swift */,
+				88DCE85044B453A17D1772438E7665A5 /* Timeline.swift */,
+				CE7C7F504F0F03125D22C956A9495489 /* Upload.swift */,
+				216EB9C5C54CF3B106340110ADC0A4E7 /* Validation.swift */,
+				C48D8FF1B40D3E31F02DE87C0E349987 /* Support Files */,
 			);
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		E73C9C7662C0953ADA2418300003EDA4 /* Frameworks */ = {
+		FC223C3DD5FD55FCAE68B16C6C4D2D4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9E8F390D41D368C82E684B75597DC27 /* TwilioIPMessagingClient.framework */,
+				1DAD1F61319AEC0273669F6F4353A2C9 /* Alamofire.framework */,
+				1D5AA9F11D5334B4C4FE8EA904FA50D6 /* Pods_scuttle.framework */,
+				7334D032B13CF9920548DC8067784E17 /* SlackTextViewController.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F5CE0721A8EFBC643B98CC02A1A509B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BC1A124C886825824348E2550A3C49F4 /* TwilioCommon.framework */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A2B4E20AC7EDF0784AA6999A0929C72A /* Headers */ = {
+		4D035F19EB2CF7A9F5402FF03058A10E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E78CE7FA58F576A6EE8AD0D2116EF81 /* Pods-scuttle-umbrella.h in Headers */,
+				C006EDC2BBAC527797B03C91EDBFA99C /* Pods-scuttle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BA774BE0C6CE19263374FB2A1B6836 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5415798623886DD1AA77E352AC32B26 /* SlackTextViewController-umbrella.h in Headers */,
+				8C1485C4FB1B851D90F753EB178D8C9D /* SLKInputAccessoryView.h in Headers */,
+				E7D2E9BFE9356B1F4BD7A80D39C376FF /* SLKTextInputbar.h in Headers */,
+				4A8CFEC24F2ED3D2A0463B8B3EFFD7A8 /* SLKTextView+SLKAdditions.h in Headers */,
+				80F9E5BA68BA753F1394EA0BA97E6622 /* SLKTextView.h in Headers */,
+				30B258A6C0FE90B3256AC850D48F6FCE /* SLKTextViewController.h in Headers */,
+				BAB1B98732F4F85224ABB17F04F55B06 /* SLKTypingIndicatorProtocol.h in Headers */,
+				C6387E55156203B9CE3B69366259948F /* SLKTypingIndicatorView.h in Headers */,
+				62324D3CDBA144CB703BA7A383D36997 /* SLKUIConstants.h in Headers */,
+				6E9A27061E57D6299E0BEDFDEC0AEFCF /* UIResponder+SLKAdditions.h in Headers */,
+				96D45DF6D4B3047A7C4FB5C64D29D9DC /* UIScrollView+SLKAdditions.h in Headers */,
+				32CC51D530248453D5BE5384A2EA5DA5 /* UIView+SLKAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +397,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		28E45D099F0B36BB1767A56C6A19EFD3 /* SlackTextViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D303476FC8347A6AF91F793ABA5A3514 /* Build configuration list for PBXNativeTarget "SlackTextViewController" */;
+			buildPhases = (
+				05DAD48AB08E1A7C71B5DD69C0F9CF85 /* Sources */,
+				C1AEE5974820EC6F761ADD8607A92A28 /* Frameworks */,
+				E8BA774BE0C6CE19263374FB2A1B6836 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlackTextViewController;
+			productName = SlackTextViewController;
+			productReference = 7334D032B13CF9920548DC8067784E17 /* SlackTextViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -283,25 +428,26 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = F9BEA5D126AD75E40B6DF71AAED666D8 /* Alamofire.framework */;
+			productReference = 1DAD1F61319AEC0273669F6F4353A2C9 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CB2489100723202D58817D1DC3194750 /* Pods-scuttle */ = {
+		B0C7D40CBC7A91A7BA0884ADBAB58E07 /* Pods-scuttle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 164B89C3BD39A7AB7CC30533BE0FA8F6 /* Build configuration list for PBXNativeTarget "Pods-scuttle" */;
+			buildConfigurationList = E7B19EE94852EA5D7E49268DA9195EE2 /* Build configuration list for PBXNativeTarget "Pods-scuttle" */;
 			buildPhases = (
-				C24386415BC4B2F8F285E223270FC570 /* Sources */,
-				0FBF5C76051BDCCB3277C5C2BDD90471 /* Frameworks */,
-				A2B4E20AC7EDF0784AA6999A0929C72A /* Headers */,
+				D34B5AD0E7726B2D1B788BFC0F6ADB68 /* Sources */,
+				B76E7ED30BDD35DE82713652D3DB94B4 /* Frameworks */,
+				4D035F19EB2CF7A9F5402FF03058A10E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAFED4BC6C1F352A90A7DC63860359DD /* PBXTargetDependency */,
+				CB08869AA51EB37B5D0164866A4ECF9E /* PBXTargetDependency */,
+				85691B4F504B2A21813FD2258C2E9E05 /* PBXTargetDependency */,
 			);
 			name = "Pods-scuttle";
 			productName = "Pods-scuttle";
-			productReference = 7DF3C26C3B421EE5B7C9AFD2864CB709 /* Pods_scuttle.framework */;
+			productReference = 1D5AA9F11D5334B4C4FE8EA904FA50D6 /* Pods_scuttle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,17 +467,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C050DF3EB55B699FCBC380A1DF5C31CE /* Products */;
+			productRefGroup = FC223C3DD5FD55FCAE68B16C6C4D2D4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
-				CB2489100723202D58817D1DC3194750 /* Pods-scuttle */,
+				B0C7D40CBC7A91A7BA0884ADBAB58E07 /* Pods-scuttle */,
+				28E45D099F0B36BB1767A56C6A19EFD3 /* SlackTextViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		05DAD48AB08E1A7C71B5DD69C0F9CF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39C31107A8058C1DFF90DBD8AC4D956 /* SlackTextViewController-dummy.m in Sources */,
+				CF759081D158BD6C3EF61A3336CA4A90 /* SLKInputAccessoryView.m in Sources */,
+				8116DA964655438488A84587833C5CFB /* SLKTextInputbar.m in Sources */,
+				C7AFB98B5E65F5C55882BF8451BDB24A /* SLKTextView+SLKAdditions.m in Sources */,
+				CA037B5AB7CE4036881141E03BE3C5AC /* SLKTextView.m in Sources */,
+				0CE74098227ABE497BBAD5F9D5F7AF03 /* SLKTextViewController.m in Sources */,
+				0D2656F23089404044D07E2245D3217F /* SLKTypingIndicatorView.m in Sources */,
+				5AC278DE1650C8B5A83A9FB58AE900AC /* UIResponder+SLKAdditions.m in Sources */,
+				C5A5F6B6F7F4E4D01C5E8203A77B936A /* UIScrollView+SLKAdditions.m in Sources */,
+				02057448F7EB37C77E5A4EC23703D0CD /* UIView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,55 +521,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C24386415BC4B2F8F285E223270FC570 /* Sources */ = {
+		D34B5AD0E7726B2D1B788BFC0F6ADB68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17FC5BAE71A5AE957A9F43B4CA2CB9A9 /* Pods-scuttle-dummy.m in Sources */,
+				D97980D6EAD6ED2155F0C168D925DE57 /* Pods-scuttle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CAFED4BC6C1F352A90A7DC63860359DD /* PBXTargetDependency */ = {
+		85691B4F504B2A21813FD2258C2E9E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlackTextViewController;
+			target = 28E45D099F0B36BB1767A56C6A19EFD3 /* SlackTextViewController */;
+			targetProxy = 62D1CA542D29C037C01384734D640705 /* PBXContainerItemProxy */;
+		};
+		CB08869AA51EB37B5D0164866A4ECF9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = 79C3C2FAB73E3E434363E36A597E63AD /* PBXContainerItemProxy */;
+			targetProxy = 6CEA309DB0413B50680272BAAE12A38B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		58494E12CA6FD3C702489A3CD3F1A012 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 673C04C1B453459120AE6FECDDF23F11 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E969D3A9380610FBDC30CEABC17FE6C /* Release */ = {
+		3ADF51104ED73E711B25A7CF9668FFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC082F593A1B7B9492E280E905EAC2A8 /* Pods-scuttle.release.xcconfig */;
 			buildSettings = {
@@ -434,6 +576,119 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		3F1BA4A456DC3AD7DF626B74F32669D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90E16AD4083AA5ECB438F6049D6D6C7 /* SlackTextViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlackTextViewController/SlackTextViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackTextViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackTextViewController/SlackTextViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlackTextViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58494E12CA6FD3C702489A3CD3F1A012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52F769FA737BF4008E302494B15A2CC /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6290B5D31FC0714C7815AE6F9BE2895E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0C2EF63337931ACEB1ADC28C028FF3 /* Pods-scuttle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-scuttle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-scuttle/Pods-scuttle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_scuttle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CD04F77060ED1E99D6DCB669C4B7E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90E16AD4083AA5ECB438F6049D6D6C7 /* SlackTextViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlackTextViewController/SlackTextViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackTextViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackTextViewController/SlackTextViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlackTextViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9EB645C612834738B99727720210C23E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -508,40 +763,9 @@
 			};
 			name = Release;
 		};
-		F4460C1E42D8C6F159DBB4FC67B2BC7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E0C2EF63337931ACEB1ADC28C028FF3 /* Pods-scuttle.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-scuttle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-scuttle/Pods-scuttle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_scuttle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FE04435071403414370ED342B2BC6F0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 673C04C1B453459120AE6FECDDF23F11 /* Alamofire.xcconfig */;
+			baseConfigurationReference = D52F769FA737BF4008E302494B15A2CC /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -569,15 +793,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		164B89C3BD39A7AB7CC30533BE0FA8F6 /* Build configuration list for PBXNativeTarget "Pods-scuttle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4460C1E42D8C6F159DBB4FC67B2BC7E /* Debug */,
-				9E969D3A9380610FBDC30CEABC17FE6C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -592,6 +807,24 @@
 			buildConfigurations = (
 				58494E12CA6FD3C702489A3CD3F1A012 /* Debug */,
 				FE04435071403414370ED342B2BC6F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D303476FC8347A6AF91F793ABA5A3514 /* Build configuration list for PBXNativeTarget "SlackTextViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD04F77060ED1E99D6DCB669C4B7E8D /* Debug */,
+				3F1BA4A456DC3AD7DF626B74F32669D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B19EE94852EA5D7E49268DA9195EE2 /* Build configuration list for PBXNativeTarget "Pods-scuttle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6290B5D31FC0714C7815AE6F9BE2895E /* Debug */,
+				3ADF51104ED73E711B25A7CF9668FFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

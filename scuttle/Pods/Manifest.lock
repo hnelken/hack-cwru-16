@@ -1,10 +1,12 @@
 PODS:
   - Alamofire (3.2.0)
+  - SlackTextViewController (1.9)
   - TwilioCommon (0.1.10)
   - TwilioIPMessagingClient (0.13.5)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
+  - SlackTextViewController
   - TwilioCommon (from `https://media.twiliocdn.com/sdk/rtc/ios/common/v0.1/TwilioCommon.podspec`)
   - TwilioIPMessagingClient (from `https://media.twiliocdn.com/sdk/rtc/ios/ip-messaging/v0.13/TwilioIPMessagingClient.podspec`)
 
@@ -16,6 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
+  SlackTextViewController: d51503f7be846cb9976a273499dc90f2445e9447
   TwilioCommon: 0c1b601770d3431453a979e8a0794313e99f9317
   TwilioIPMessagingClient: 97f2f8aa7fdcab675db51a0d77850492a3ba63f1
 
