@@ -59,6 +59,10 @@ class LoginViewController: UIViewController {
     
     @IBAction func logOutSegue(segue:UIStoryboardSegue) {
     }
+    @IBAction func eventsPressed(sender: AnyObject) {
+        
+        webInterface.verifyUser("test@test.com", password: "password2")
+    }
 
     /*
     // MARK: - Navigation

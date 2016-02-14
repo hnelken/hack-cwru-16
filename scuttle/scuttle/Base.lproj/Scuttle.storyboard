@@ -83,10 +83,26 @@
                                     <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iNp-Pl-XMO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KL4-fx-6pg">
+                                <rect key="frame" x="233" y="430" width="134" height="35"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="O27-UM-c77"/>
+                                    <constraint firstAttribute="width" constant="134" id="dCA-Is-dBF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="EVENTS!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="eventsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ty-gv-f5i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11764705882352941" green="0.0" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="aFn-tV-TOA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DZ4-Y0-u8U"/>
+                            <constraint firstItem="KL4-fx-6pg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lij-Ry-Y5K"/>
                             <constraint firstItem="o4p-yt-qkP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SnM-rp-48b"/>
                             <constraint firstItem="aFn-tV-TOA" firstAttribute="top" secondItem="0mI-LJ-Djw" secondAttribute="bottom" constant="28" id="Szu-VF-hJK"/>
                             <constraint firstItem="5pc-fi-XkY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="alt-gl-ppF"/>
@@ -94,6 +110,7 @@
                             <constraint firstItem="eGg-ax-gbd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="czO-eR-8lZ"/>
                             <constraint firstItem="0mI-LJ-Djw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="e2t-11-U56"/>
                             <constraint firstItem="0mI-LJ-Djw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h6x-GR-hN8"/>
+                            <constraint firstItem="KL4-fx-6pg" firstAttribute="top" secondItem="aFn-tV-TOA" secondAttribute="bottom" constant="8" id="khc-0f-Gge"/>
                             <constraint firstItem="0mI-LJ-Djw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="lLF-Gm-YGV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="o4p-yt-qkP" secondAttribute="trailing" constant="45" id="law-rR-txv"/>
                             <constraint firstItem="eGg-ax-gbd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pSy-d1-0JX"/>

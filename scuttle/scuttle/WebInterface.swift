@@ -11,9 +11,9 @@ import Alamofire
 
 class WebInterface: NSObject {
     
-    func requestToken(deviceId: String) {
+    func requestToken(deviceID: String) {
         
-        let urlString = "\(kBaseURL)\(kTokenRequestRoute)\(deviceId)"
+        let urlString = "\(kBaseURL)\(kTokenRequestRoute)\(deviceID)"
         //let defaultChannel = "general"
         
         Alamofire.request(.GET, urlString).responseJSON { response in
@@ -81,6 +81,38 @@ class WebInterface: NSObject {
 //                print("Error fetching token :\(error)")
 //            }
 //        }).resume()
+    }
+    
+    func verifyUser(email: String, password: String) {
+        let urlString = "\(kServerURL)\(kVerifyUserRoute)"
+        
+        let parameters = [
+            "email": email,
+            "password": password
+        ]
+        
+        Alamofire.request(.POST, urlString, parameters: parameters, encoding: .JSON)
+            .response { response in
+                print(response)
+        }
+    }
+    
+    func getEvents(userID: Int32) {
+        
+        let urlString = "\(kServerURL)\(kGetEventsRoute)\(userID)"
+        
+        Alamofire.request(.GET, urlString).responseJSON { response in
+            print(response.result)   // result of response serialization
+            
+            if response.result.isSuccess {
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+            }
+            else {
+                print("Token acquisition failed")
+            }
+        }
     }
     
     func doStuff() {
